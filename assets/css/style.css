@@ -766,8 +766,7 @@ h3{font-size:2rem; font-weight:900;}
 .vs{left:17px;}
 .dotnet{left:140px;}
 #geeks2::before, #geeks2::after{top:-56px; height:117px;}
-.portfoio{display:flex; justify-content:center; align-items:center;}
-.portfoio .portfolio-container .portfolio-item{width:16%;}
+.portfoio .desktopView{display:flex; justify-content:center; align-items:center;}
 
 }
 
