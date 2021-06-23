@@ -1036,7 +1036,6 @@ h3 {
     left: 260px;
   }
 }
-
 @media (max-width: 640px) {
   .infographicImg {
     display: none;
@@ -1056,12 +1055,22 @@ h3 {
     flex-flow: column;
     align-items: center;
   }
+  .STEP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .mybtn {
+    position: initial;
+  }
   #step1DIV,
   #step2DIV,
   #step3DIV,
   #step4DIV,
   #step5DIV {
     visibility: hidden;
+    position: initial;
   }
   .circleHead {
     position: initial;
@@ -1073,39 +1082,19 @@ h3 {
   .step4,
   .step5 {
     position: initial;
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 30px 0px;
   }
   .step5 {
     margin-bottom: 0px;
   }
-  .step5Div {
-    position: absolute;
-    top: 621px;
-    left: -333px;
-    width: 300px;
-  }
-  .step4Div {
-    position: absolute;
-    top: 467px;
-    left: 48px;
-    width: 300px;
-  }
-  .step3Div {
-    position: absolute;
-    top: 309px;
-    left: -333px;
-    width: 300px;
-  }
-  .step2Div {
-    position: absolute;
-    top: 149px;
-    left: 48px;
-    width: 300px;
-  }
+  .step5Div,
+  .step4Div,
+  .step3Div,
+  .step2Div,
   .step1Div {
-    position: absolute;
-    left: -333px;
-    width: 300px;
+    position: initial;
+    margin-top: 20px;
+    width: 315px;
   }
 
   .StepsSection {
@@ -1113,7 +1102,6 @@ h3 {
     position: relative;
   }
 }
-
 @media (max-width: 425px) {
   .infographic-outer h2 {
     background: url(../images/head-bg1.png) center center no-repeat;
