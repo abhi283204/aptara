@@ -1294,7 +1294,7 @@ h3 {
   }
 }
 
-@media all and (max-width: 1680px) and (min-width: 1500px) {
+@media all and (max-width: 1680px) and (min-width: 1440px) {
   .hire {
     background: #e7f8fe url(../images/hire-bg1.png) 0px 0px no-repeat;
   }
