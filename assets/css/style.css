@@ -433,13 +433,20 @@ p {
   }
   .carousel-caption {
     bottom: auto;
-    top: 10%;
+    top: 25%;
   }
   #header .logo {
     font-size: 18px;
   }
   .carousel-caption p {
     margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-caption {
+    bottom: auto;
+    top: 7%;
   }
 }
 
@@ -548,7 +555,7 @@ p {
     margin-top: 80px;
   }
   .core-services h2 {
-    margin-top: 0px;
+    margin-top: 28px;
   }
 }
 
