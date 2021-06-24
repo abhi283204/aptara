@@ -353,7 +353,11 @@ p {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
+@media all and (max-width: 1680px) and (min-width: 1440px) {
+  .nav-menu a {
+    font-size: 18px;
+  }
+}
 /*--------------------------------------------------------------
  # Banner Section
  --------------------------------------------------------------*/
